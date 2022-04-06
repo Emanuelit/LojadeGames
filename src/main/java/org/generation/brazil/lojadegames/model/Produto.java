@@ -42,7 +42,7 @@ public class Produto {
 
 	@JsonFormat(shape = JsonFormat.Shape.STRING)
 	@NotNull(message = "Preço é obrigatório!")
-	
+
 	private BigDecimal preco;
 
 	@ManyToOne
